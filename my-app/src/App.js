@@ -1,4 +1,6 @@
 import './App.css';
+import contact from './contact';
+// import { Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -29,7 +31,7 @@ function App() {
         </li>
     
         <li class="nav-item">
-          <a class="nav-link" href="#">Conatact</a>
+          <a class="nav-link" to="/contact">Conatact</a>
         </li>
       
         
@@ -63,23 +65,7 @@ function App() {
         </div>
       </div>
 
-      <div className="contact_section">
-  <div className="container">
-    <div className="row">
-      <div className="col-6">
-        <div className="contact_text">
-          <h5>Let's chat. <br /> Tell me about your project.</h5>
-          <p>let's create something together</p>
-        </div>
-      </div>
-      <div className="col-6">
-        <div className="contact_form">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero non ad eveniet libero! Delectus error facere atque libero dolor suscipit.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
 
 

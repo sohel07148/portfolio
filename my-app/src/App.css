@@ -125,38 +125,90 @@ color: #E6E6E6;
 
 
 .contact_section{
-  background: #44576D;
+  background: #e6e6e6;
 }
 .contact_text {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 100%;
   padding: 60px 0;
   color: #fff;
-  position: relative;
 }
 .contact_text h5{
-  font-size: 32px;
-    width: 71%;
-    
-  }
-  .contact_text p{
-    position: absolute;
-    left: 15%;
-    top: 80%;
+  font-size: 68px;
+  /* width: 71%; */
+  color: #44576d;
+  font-weight: 700;
+}
+  .contact_text p {
+
+    color: #44576d;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .contact_form {
-    color: #fff;
-    background: #fff;
-    position: relative;
-    top: 120px;
+  /* color: #fff; */
+  background: #fff;
+  position: relative;
+  top: 5%;
+  height: 90%;
+  border-radius: 30px;
+  padding: 15px;
+  position: relative;
+  padding-bottom: 10%;
 }
 
 
+.contact_form label {
+  position: absolute;
+  font-size: 18px;
+  font-weight: 600;
+}
+.contact_form form{
+  padding: 10px 30px;
+}
+.contact_form .red{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact_form input{
+  border-bottom: 2px solid gray !important;
+  border: none;
+  margin: 20px 0;
+  width: 100%;
+}
+.contact_form input:active{
+  border-bottom: 8px solid red;
 
+}
+.contact_form input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contact_form h4{
+  font-size: 24px;
+  font-weight: 700;
+  color: #44576d;
+}
+.contact_form #submit {
+  background: #29353C;
+  /* width: 20%; */
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  font-size: 19px;
+  padding: 10px;
+  font-weight: 700;
+  color: #DFEBF6;
+}
+.contact_form #submit:hover, .contact_form #submit:focus {
+  color: #29353C;
+  background: #DFEBF6;
+  
+}
 
 
 
