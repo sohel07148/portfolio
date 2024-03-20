@@ -1,0 +1,20 @@
+.about_section {
+    background-color: #e6e6e6;
+  
+  }
+.about_heading{
+    padding-left: 10%;
+}
+.about_text p{
+    font-size: 25px;
+    font-weight: 500;
+    color: #768a96;
+}
+.about_heading h2  {
+    font-size: 40px;
+    font-weight: 700;
+    color: #44576d;
+}
+.skills_section{
+    background: #000;
+}
